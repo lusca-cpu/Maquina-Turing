@@ -1,0 +1,8 @@
+bloco a 0
+
+0 * 1 r 1
+1 00 halt-accept
+
+2 * * r halt-accept
+
+fim

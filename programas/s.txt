@@ -1,0 +1,542 @@
+bloco s 0
+
+;Achar o +
+0 + * l 1
+0 * * r 0
+
+;lendo número antes do +
+1 0 A r 02
+1 1 B r 03
+1 2 C r 04
+1 3 D r 05
+1 4 E r 06
+1 5 F r 07
+1 6 G r 08 
+1 7 H r 09
+1 8 I r 010
+1 9 J r 011
+1 _ * r 022
+1 * * l 1
+
+;leu 0
+02 = * l 2
+02 * * r 02
+2 0 A l 12
+2 1 B l 13
+2 2 C l 14
+2 3 D l 15
+2 4 E l 16
+2 5 F l 17
+2 6 G l 18
+2 7 H l 19
+2 8 I l 20
+2 9 J l 21
+2 + * * 12
+2 * * l 2
+
+;leu 1
+03 = * l 3
+03 * * r 03
+3 0 A l 13
+3 1 B l 14
+3 2 C l 15
+3 3 D l 16
+3 4 E l 17
+3 5 F l 18
+3 6 G l 19
+3 7 H l 20
+3 8 I l 21
+3 9 J l 47
+3 + * * 13
+3 * * l 3
+
+;leu 2
+04 = * l 4
+04 * * r 04
+4 0 A l 14
+4 1 B l 15
+4 2 C l 16
+4 3 D l 17
+4 4 E l 18
+4 5 F l 19
+4 6 G l 20
+4 7 H l 21
+4 8 I l 47
+4 9 J l 48
+4 + * * 14
+4 * * l 4
+
+;leu 3
+05 = * l 5
+05 * * r 05
+5 0 A l 15
+5 1 B l 16
+5 2 C l 17
+5 3 D l 18
+5 4 E l 19
+5 5 F l 20
+5 6 G l 21
+5 7 H l 47
+5 8 I l 48
+5 9 J l 49
+5 + * * 15
+5 * * l 5
+
+;leu 4
+06 = * l 6
+06 * * r 06
+6 0 A l 16
+6 1 B l 17
+6 2 C l 18
+6 3 D l 19
+6 4 E l 20
+6 5 F l 21
+6 6 G l 47
+6 7 H l 48
+6 8 I l 49
+6 9 J l 50
+6 + * * 16
+6 * * l 6
+
+;leu 5
+07 = * l 7
+07 * * r 07
+7 0 A l 17
+7 1 B l 18
+7 2 C l 19
+7 3 D l 20
+7 4 E l 21
+7 5 F l 47
+7 6 G l 48
+7 7 H l 49
+7 8 I l 50
+7 9 J l 51
+7 + * * 17
+7 * * l 7
+
+;leu 6
+08 = * l 8
+08 * * r 08
+8 0 A l 18
+8 1 B l 19
+8 2 C l 20
+8 3 D l 21
+8 4 E l 47
+8 5 F l 48
+8 6 G l 49
+8 7 H l 50
+8 8 I l 51
+8 9 J l 52
+8 + * * 18 
+8 * * l 8
+
+;leu 7
+09 = * l 9
+09 * * r 09
+9 0 A l 19
+9 1 B l 20
+9 2 C l 21
+9 3 D l 47
+9 4 E l 48
+9 5 F l 49
+9 6 G l 50
+9 7 H l 51
+9 8 I l 52
+9 9 J l 53
+9 + * * 19 
+9 * * l 9
+
+;leu 8
+010 = * l 10
+010 * * r 010
+10 0 A l 20
+10 1 B l 21
+10 2 C l 47
+10 3 D l 48
+10 4 E l 49
+10 5 F l 50
+10 6 G l 51
+10 7 H l 52
+10 8 I l 53
+10 9 J l 54
+10 + * * 20
+10 * * l 10
+
+;leu 9
+011 = * l 11
+011 * * r 011
+11 0 A l 21
+11 1 B l 47
+11 2 C l 48
+11 3 D l 49
+11 4 E l 50
+11 5 F l 51
+11 6 G l 52
+11 7 H l 53
+11 8 I l 54
+11 9 J l 55
+11 + * * 21 
+11 * * l 11
+
+;escreve numero 0 
+12 _ a r 0
+12 * * l 12
+ 
+;escreve numero 1
+13 _ b r 0
+13 * * l 13
+
+;escreve numero 2 
+14 _ c r 0
+14 * * l 14
+
+;escreve numero 3 
+15 _ d r 0
+15 * * l 15
+
+;escreve numero 4 
+16 _ e r 0
+16 * * l 16
+
+;escreve numero 5 
+17 _ f r 0
+17 * * l 17
+
+;escreve numero 6 
+18 _ g r 0
+18 * * l 18
+
+;escreve numero 7 
+19 _ h r 0
+19 * * l 19
+
+;escreve numero 8
+20 _ i r 0
+20 * * l 20
+
+;escreve numero 9
+21 _ j r 0
+21 * * l 21
+
+;leu vazio 
+022 = * l 22
+022 * * r 022
+22 0 A l 12
+22 1 B l 13
+22 2 C l 14
+22 3 D l 15 
+22 4 E l 16
+22 5 F l 17
+22 6 G l 18
+22 7 H l 19
+22 8 I l 20
+22 9 J l 21
+22 + * l 023
+22 * * l 22
+
+;------------------------------------------Carry-------------------------------------------
+;Achar o +
+35 + * l 36
+35 * * r 35
+
+;lendo número antes do +
+36 0 A r 037
+36 1 B r 038
+36 2 C r 039
+36 3 D r 040
+36 4 E r 041
+36 5 F r 042
+36 6 G r 043
+36 7 H r 044
+36 8 I r 045
+36 9 J r 046
+36 _ * r 057
+36 * * l 36
+
+;carry 0
+037 = * l 37
+037 * * r 037
+37 0 A l 13
+37 1 B l 14
+37 2 C l 15
+37 3 D l 16
+37 4 E l 17
+37 5 F l 18
+37 6 G l 19
+37 7 H l 20
+37 8 I l 21
+37 9 J l 47
+37 * * l 37
+
+;carry 1
+038 = * l 38
+038 * * r 038
+38 0 A l 14
+38 1 B l 15
+38 2 C l 16
+38 3 D l 17
+38 4 E l 18
+38 5 F l 19
+38 6 G l 20
+38 7 H l 21
+38 8 I l 47
+38 9 J l 48
+38 + * * 14
+38 * * l 38
+
+;carry 2
+039 = * l 39
+039 * * r 039
+39 0 A l 15
+39 1 B l 16
+39 2 C l 17
+39 3 D l 18
+39 4 E l 19
+39 5 F l 20
+39 6 G l 21
+39 7 H l 47
+39 8 I l 48
+39 9 J l 49
+39 + * * 15
+39 * * l 39
+
+;carry 3
+040 = * l 40
+040 * * r 040
+40 0 A l 16
+40 1 B l 17
+40 2 C l 18
+40 3 D l 19
+40 4 E l 20
+40 5 F l 21
+40 6 G l 47
+40 7 H l 48
+40 8 I l 49
+40 9 J l 50
+40 + * * 16
+40 * * l 40
+
+;carry 4
+041 = * l 41
+041 * * r 041
+41 0 A l 17
+41 1 B l 18
+41 2 C l 19
+41 3 D l 20
+41 4 E l 21
+41 5 F l 47
+41 6 G l 48
+41 7 H l 49
+41 8 I l 50
+41 9 J l 51
+41 + * * 17
+41 * * l 41
+
+;carry 5
+042 = * l 42
+042 * * r 042
+42 0 A l 18
+42 1 B l 19
+42 2 C l 20
+42 3 D l 21
+42 4 E l 47
+42 5 F l 48
+42 6 G l 49
+42 7 H l 50
+42 8 I l 51
+42 9 J l 52
+42 + * * 18
+42 * * l 42
+
+;carry 6
+043 = * l 43
+043 * * r 043
+43 0 A l 19
+43 1 B l 20
+43 2 C l 21
+43 3 D l 47
+43 4 E l 48
+43 5 F l 49
+43 6 G l 50
+43 7 H l 51
+43 8 I l 52
+43 9 J l 53
+43 + * * 19
+43 * * l 43
+
+;carry 7
+044 = * l 44
+044 * * r 044
+44 0 A l 20
+44 1 B l 21
+44 2 C l 47
+44 3 D l 48
+44 4 E l 49
+44 5 F l 50
+44 6 G l 51
+44 7 H l 52
+44 8 I l 53
+44 9 J l 54
+44 + * * 20
+44 * * l 44
+
+;carry 8
+045 = * l 45
+045 * * r 045
+45 0 A l 21
+45 1 B l 47
+45 2 C l 48
+45 3 D l 49
+45 4 E l 50
+45 5 F l 51
+45 6 G l 52
+45 7 H l 53
+45 8 I l 54
+45 9 J l 55
+45 + * * 21
+45 * * l 45
+
+;carry 9
+046 = * l 46
+046 * * r 046
+46 0 A l 47
+46 1 B l 48
+46 2 C l 49
+46 3 D l 50
+46 4 E l 51
+46 5 F l 52
+46 6 G l 53
+46 7 H l 54
+46 8 I l 55
+46 9 J l 56
+46 + * * 47
+46 * * l 46
+
+;escreve numero 0 
+47 _ a r 35
+47 * * l 47
+ 
+;escreve numero 1
+48 _ b r 35
+48 * * l 48
+
+;escreve numero 2 
+49 _ c r 35
+49 * * l 49
+
+;escreve numero 3 
+50 _ d r 35
+50 * * l 50
+
+;escreve numero 4 
+51 _ e r 35
+51 * * l 51
+
+;escreve numero 5 
+52 _ f r 35
+52 * * l 52
+
+;escreve numero 6 
+53 _ g r 35
+53 * * l 53
+
+;escreve numero 7 
+54 _ h r 35
+54 * * l 54
+
+;escreve numero 8
+55 _ i r 35
+55 * * l 55
+
+;escreve numero 9 
+56 _ j r 35
+56 * * l 56
+
+;leu vazio 
+057 = * l 57
+057 * * r 057
+57 0 A l 13
+57 1 B l 14
+57 2 C l 15
+57 3 D l 16 
+57 4 E l 17
+57 5 F l 18
+57 6 G l 19
+57 7 H l 20
+57 8 I l 21
+57 9 J l 47
+57 _ b r 023
+57 * * l 57
+
+;-------------------------------------fim------------------------------------------
+
+;achando a resultado 0
+023 _ * r 23
+023 * * l 023
+23 a _ r 24
+23 b _ r 25
+23 c _ r 26
+23 d _ r 27
+23 e _ r 28
+23 f _ r 29
+23 g _ r 30
+23 h _ r 31
+23 i _ r 32
+23 j _ r 33
+23 * * * 34
+
+;colocando a resposta 0
+24 _ 0 * 023
+24 * * r 24
+
+;colocando a resposta 1
+25 _ 1 * 023
+25 * * r 25
+
+;colocando a resposta 2
+26 _ 2 * 023
+26 * * r 26
+
+;colocando a resposta 3
+27 _ 3 * 023
+27 * * r 27
+
+;colocando a resposta 4
+28 _ 4 * 023
+28 * * r 28
+
+;colocando a resposta 5
+29 _ 5 * 023
+29 * * r 29
+
+;colocando a resposta 6
+30 _ 6 * 023
+30 * * r 30
+
+;colocando a resposta 7
+31 _ 7 * 023
+31 * * r 31
+
+;colocando a resposta 8
+32 _ 8 * 023
+32 * * r 32
+
+;colocando a resposta 9
+33 _ 9 * 023
+33 * * r 33
+ 
+;colocando os números
+34 A 0 r 34
+34 B 1 r 34
+34 C 2 r 34
+34 D 3 r 34
+34 E 4 r 34
+34 F 5 r 34
+34 G 6 r 34
+34 H 7 r 34
+34 I 8 r 34
+34 J 9 r 34
+34 _ _ r halt-accept
+34 * * r 34
+
+fim

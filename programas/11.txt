@@ -1,0 +1,13 @@
+bloco 11 0
+
+0 * 1 r 1
+1 * 1 r accept
+
+accept * : r accept2
+accept2 * ) * halt-accept
+
+reject _ : r reject2
+reject * _ l reject
+reject2 * ( * halt-reject
+
+fim
